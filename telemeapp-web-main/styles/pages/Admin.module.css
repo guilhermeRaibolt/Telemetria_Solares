@@ -1,0 +1,155 @@
+.container {
+    width: 100%;
+    height: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.control {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.singleControl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.singleControlIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.icon:hover {
+    filter: brightness(0.5);
+}
+
+.containerButton {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonLogin {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.2s;
+    height: 50px;
+}
+
+.buttonLogin img {
+    margin-right: 15px;
+}
+
+.buttonLogin:hover {
+    cursor: pointer;
+    filter: brightness(0.7);
+}
+
+.map {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.meio {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25vh;
+    min-height: 230px;
+    justify-content: space-between;
+    /* background-color: #204e1e; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.meio::-webkit-scrollbar {
+    width: 1rem;
+    height: 1rem;
+}
+
+.meio::-webkit-scrollbar-track {
+    background: rgba(241, 241, 241, 0.479);
+}
+
+.meio::-webkit-scrollbar-thumb {
+    background-color: #1C1D49;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    width: 100px;
+    height: 100px;
+    border: 1px solid #cccccc;  /* creates padding around scroll thumb */
+}
+
+.fim {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 25vh;
+    /* background-color: #3b1e4e; */
+    padding: 1rem;
+}
+
+.dangerArea {
+    /* background: #204e1e; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5rem;
+}
+
+.dangerArea button {
+    background-color: transparent;
+    border: 0;
+    transition: 0.2s;
+}
+
+.dangerArea button:hover {
+    filter: brightness(0.7);
+    cursor: pointer;
+}
+
+.dangerArea img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    transition: 0.4s;
+}
+
+.dangerArea img:hover {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}

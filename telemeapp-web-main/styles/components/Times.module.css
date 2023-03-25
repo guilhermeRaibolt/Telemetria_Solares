@@ -1,0 +1,50 @@
+.container {
+    flex: 1;
+    min-width: 200px;
+    min-height: 300px;
+    width: 100%;
+    background-color: #1C1C49;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.container h1 {
+    margin: 0px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.times {
+    margin-top: 10px;
+    overflow: auto;
+    white-space: nowrap;
+    word-wrap: break-word;
+    height: 80%;
+    max-height: 300px;
+    width: 100%;
+}
+
+.times p {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.times::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+}
+
+.times::-webkit-scrollbar-thumb {
+    background-color: #979591;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 1px solid white;  /* creates padding around scroll thumb */
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        margin: 0;
+        margin-top: 1rem;
+    }
+}
